@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Áo thun nam",
+    "price": 150000,
+    "category": "Áo",
+    "image": "images/ao_thun.jpg",
+    "description": "Chất liệu cotton cao cấp"
+  },
+  {
+    "name": "Quần jean nữ",
+    "price": 250000,
+    "category": "Quần",
+    "image": "images/quan_jean.jpg",
+    "description": "Phong cách cá tính, co giãn"
+  },
+  {
+    "name": "Giày sneaker",
+    "price": 400000,
+    "category": "Giày",
+    "image": "images/giay.jpg",
+    "description": "Thích hợp đi học, đi chơi"
+  }
+]
