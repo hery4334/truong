@@ -1,0 +1,15 @@
+from PIL import Image
+
+# Tạo thư mục nếu chưa có
+import os
+os.makedirs("images", exist_ok=True)
+
+# Tạo ảnh nền trống
+def create_blank_image(filename, label):
+    img = Image.new("RGB", (300, 300), color=(200, 200, 200))
+    img.save(f"images/{filename}")
+
+# Tạo 3 ảnh trống
+create_blank_image("ao_thun.jpg", "Áo thun")
+create_blank_image("quan_jean.jpg", "Quần jean")
+create_blank_image("giay.jpg", "Giày")
